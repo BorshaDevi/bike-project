@@ -18,6 +18,7 @@
         colors: {
           clifford: '#da373d',
         'bike-primary': '#E76F51',
+        'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
         }
       }
     }
@@ -33,7 +34,7 @@
 </style>
 <body class="font-family">
     <header class="md:container md:mx-auto">
-      <nav></nav>
+      <nav>
       <!-- navber -->
       <div class="navbar bg-slate-200">
         <div class="flex-1">
@@ -77,10 +78,28 @@
           </div>    -->
         </nav>
         <br>
-        <div class="carousel w-full">
+        <!-- slider imgs -->
+        <div class="carousel w-full bike-primary-bg ">
           <!-- slide1 -->
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+            <div class="flex">
+              <div class="space-y-7">
+                 <h1>
+                  Ride-on R15 V4
+                  <br>
+                   with Smile
+                 </h1>
+                 <p>
+                  Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint.<br>
+                   Velit officia consequat duis enim velit mollit.
+                 </p>
+                 <button class="bg-bike-primary text-white">Purchase</button>
+              </div>
+              <div>
+                <img src="slider/bike1.png" class="w-full" />
+              </div>
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" class="btn btn-circle">❮</a> 
               <a href="#slide2" class="btn btn-circle">❯</a>
@@ -88,7 +107,14 @@
           </div> 
           <!-- slide2 -->
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+            <div>
+              <div>
+
+              </div>
+              <div>
+                <img src="slider/bike2.png" class="w-full" />
+              </div>
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" class="btn btn-circle">❮</a> 
               <a href="#slide3" class="btn btn-circle">❯</a>
@@ -96,7 +122,14 @@
           </div> 
           <!-- slide3 -->
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+            <div>
+              <div>
+
+              </div>
+              <div>
+                <img src="slider/bike3.png" class="w-full" />
+              </div>
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle">❮</a> 
               <a href="#slide4" class="btn btn-circle">❯</a>
@@ -104,9 +137,31 @@
           </div>
            <!--slide4  -->
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+            <div>
+              <div>
+
+              </div>
+              <div>
+                <img src="slider/bike4.png" class="w-full" />
+              </div>
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide5" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- slide5 -->
+          <div id="slide5" class="carousel-item relative w-full">
+            <div>
+              <div>
+
+              </div>
+              <div>
+                <img src="others/feature-bike.png" class="w-full" />
+              </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
